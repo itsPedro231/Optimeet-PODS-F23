@@ -20,19 +20,19 @@ Optimeet is a web application that helps groups organize meetups by collecting u
 The project consists of two main components:
 
 ### Backend API (Django)
-- **Framework**: Django 4.2.6 with Django REST Framework [1](#0-0) 
+- **Framework**: Django 4.2.6 with Django REST Framework 
 - **Database**: SQLite (development) / MySQL (production)
 - **Key Features**: Group management, user preferences, recommendation generation, voting system
 
 ### Frontend (React)
 - **Framework**: React with Vite
-- **Key Features**: Activity selection, location preferences, time availability, recommendation viewing [2](#0-1) 
+- **Key Features**: Activity selection, location preferences, time availability, recommendation viewing
 
 ## Features
 
 - **Group Creation & Management**: Create meetup groups and invite participants
-- **Preference Collection**: Multi-step preference setting for activities, location, and time availability [3](#0-2) 
-- **Smart Recommendations**: Algorithm-generated suggestions based on group preferences [4](#0-3) 
+- **Preference Collection**: Multi-step preference setting for activities, location, and time availability
+- **Smart Recommendations**: Algorithm-generated suggestions based on group preferences
 - **Voting System**: Democratic selection of final meetup details
 - **Location Integration**: Geographic preferences with radius-based search
 
@@ -70,11 +70,11 @@ DB_PASS=your_db_password
 
 ## CI/CD
 
-The project includes automated workflows for database migrations: [5](#0-4) 
+The project includes automated workflows for database migrations: 
 
 - **Migration Testing**: Validates schema changes on pull requests
 - **Production Deployment**: Automatically applies migrations to production database
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 [6](#0-5) 
+This project is licensed under the GNU General Public License v3.0 
